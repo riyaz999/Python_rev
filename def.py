@@ -7,4 +7,4 @@ def greet(lang):
         return 'blast'
 
 print(greet('es'))
-print(greet("sh"))
+print(greet('sh'))
