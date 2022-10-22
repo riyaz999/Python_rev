@@ -6,3 +6,5 @@ for name in names:
     else:
         count[name] = count[name] + 1
 print(count)
+hello = input('Enter the name')
+print(hello)
