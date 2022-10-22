@@ -6,5 +6,11 @@ for name in names:
     else:
         count[name] = count[name] + 1
 print(count)
-hello = input('Enter the name')
-print(hello)
+
+print('---------New get()----------------')
+
+jam = dict()
+names = ['kiki', 'muppy', 'shammu', 'kiki']
+for name in names:
+    jam[name] = jam.get(name, 0) + 1
+print(jam)
