@@ -11,8 +11,6 @@ for w in hand:
 largest = -1
 theword = None
 for k, v in kiki.items():
-    # print(k)
-    # print(v)
     if v > largest:
         largest = v
         theword = k
