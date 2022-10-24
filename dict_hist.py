@@ -1,3 +1,5 @@
+from typing import Dict, Any, Union
+
 count = dict()
 names = ['kiki', 'muppy', 'shammu', 'kiki']
 for name in names:
@@ -9,7 +11,7 @@ print(count)
 
 print('---------New get()----------------')
 
-jam = dict()
+jam: dict[str, Union[int, Any]] = dict()
 names = ['kiki', 'muppy', 'shammu', 'kiki']
 for name in names:
     jam[name] = jam.get(name, 0) + 1

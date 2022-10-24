@@ -1,4 +1,4 @@
-x = 30
+x: int = 30
 if x < 10:
     print('smaller')
 if x > 20:

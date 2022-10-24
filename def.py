@@ -6,5 +6,6 @@ def greet(lang):
     else:
         return 'blast'
 
+
 print(greet('es'))
 print(greet('sh'))
